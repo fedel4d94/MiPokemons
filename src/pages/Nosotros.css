@@ -1,0 +1,10 @@
+.tituloPagina-nosotros {
+  font-family: "Press Start 2P", cursive; 
+  font-size: 40px;
+  color: #21a6e4;
+  text-shadow: 2px 2px 20px #747fd1, 4px 4px 0 #2a75bb;
+  text-align: center;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}

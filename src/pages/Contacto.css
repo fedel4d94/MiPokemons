@@ -1,0 +1,93 @@
+body {
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.main-contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tituloPagina {
+  font-family: "Press Start 2P", cursive; 
+  font-size: 70px;
+  color: #d8873c;
+  color: #21a6e4;
+  text-shadow: 2px 2px 20px #747fd1, 4px 4px 0 #2a75bb;
+  text-align: center;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+.container-formulario {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  margin-top: 90px;
+  color: #21a6e4;
+  font-family: "Caudex", serif;
+  font-weight: bold;
+}
+
+.container-formulario h2 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.container-formulario p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.container-formulario a {
+  display: flex;
+  text-decoration: none;
+  color: #21a6e4;
+  font-size: 15px;
+  padding: 5px 20px;
+}
+.container-formulario i {
+  margin-right: 10px;
+  color: #21a6e4;
+  font-size: 20px;
+}
+
+/*<<<< FORMULARIO >>>>*/
+.container-formulario form .campo,
+textarea {
+  width: 90%;
+  font-size: 15px;
+  padding: 15px 10px;
+  border: 1px solid #21a6e4;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  outline: 0px;
+  box-sizing: border-box;
+}
+
+.novedades input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.novedades label {
+  margin-bottom: 20px;
+}
+.novedades input {
+  margin-top: 20px;
+  margin-right: 20px;
+  border-radius: 20px;
+  width: 100px;
+  height: 40px;
+  background-color: #21a6e4;
+  border: 2px solid #01334b;
+  font-weight: bold;
+}

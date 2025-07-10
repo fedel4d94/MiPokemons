@@ -1,0 +1,58 @@
+.pokemonCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: 50%;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.fireGroup {
+  background-color: #fddfdf;
+  border: 4px solid #ee4a18;
+}
+.waterGroup {
+  background-color: #def3fd;
+  border: 4px solid #184aee;
+}
+.grassGroup {
+  background-color: #defde0;
+  border: 4px solid #18ee71;
+}
+.electricGroup {
+  background-color: #fcf7de;
+  border: 4px solid #e5fd0a;
+}
+.groundGroup {
+  background-color: #f4e7da;
+  border: 4px solid #7a6314;
+}
+.psychicGroup {
+  background-color: #f5a5e8;
+  border: 4px solid #ca18ee;
+}
+.default {
+  background-color: #f9f9f9;
+  border: 4px solid #4d4d4d;
+}
+
+.pokemonImage {
+  width: 300px;
+  height: auto;
+  border: 4px solid #c3c3c4;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+p {
+  margin: 10px;
+}
+
+.pokemonName {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  text-transform: capitalize;
+}

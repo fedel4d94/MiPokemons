@@ -1,0 +1,21 @@
+.tituloPagina-Tipos {
+  font-family: "Press Start 2P", cursive; 
+  font-size: 70px;
+  text-align: center;
+  line-height: 1.4;
+  margin: 0;
+}
+.planta {
+  color: rgb(98, 226, 108);
+  text-shadow: 2px 2px 20px rgb(1, 117, 11), 2px 3px 0 rgb(55, 58, 50);
+}
+
+.fuego {
+  color: rgb(248, 235, 122);
+  text-shadow: 2px 2px 20px rgb(196, 250, 1), 2px 3px 0 rgb(248, 4, 4);
+}
+
+.agua {
+  color: rgb(14, 215, 241);
+  text-shadow: 2px 2px 20px rgb(233, 240, 241), 2px 3px 0 rgb(1, 16, 216);
+}

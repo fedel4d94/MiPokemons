@@ -1,0 +1,64 @@
+.tituloPagina-buscar {
+  font-family: "Press Start 2P", cursive; 
+  font-size: 40px;
+  color: #21a6e4;
+  text-shadow: 2px 2px 20px #747fd1, 2px 3px 0 #2a75bb;
+  text-align: center;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.buscar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.buscador-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 500px;
+  width: 100%;
+  margin: 0;
+  gap: 10px;
+}
+
+.input-buscar {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+.input-buscar:focus {
+  border-color: #0501f7; 
+  box-shadow: 0 0 20px rgba(0, 217, 255, 0.5);
+}
+
+.searchIcon {
+  color: #888;
+}
+
+.button-buscar {
+  background-color: #21a6e4;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.button-buscar:hover {
+  box-shadow: 0 0 20px rgba(0, 217, 255, 0.5);
+}
+
+.button-buscar:active {
+  transform: scale(0.8);
+}

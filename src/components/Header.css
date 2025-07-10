@@ -1,0 +1,31 @@
+.navbar {
+  background-color: #21a6e4;
+  padding: 1rem;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.navbar-container {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 0 0 50px;
+  gap: 20px;
+  width: 100%;
+}
+
+.navbar-container button {
+  margin: 0 10px;
+  background: white;
+  color: #185b7a;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.navbar-container button:hover {
+  background-color: #70f0f0;
+}
