@@ -62,7 +62,7 @@ function Nosotros() {
                     {/* Redes */}
                     <Box sx={{ display: 'flex', justifyContent: 'center', mt: 3 }}>
                         <IconButton
-                            href="https://github.com/TU_GITHUB"
+                            href="https://github.com/fedel4d94/MiPokemons"
                             target="_blank"
                             rel="noopener"
                             sx={{ color: '#333' }}
